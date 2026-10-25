@@ -4309,8 +4309,8 @@
     },
     {
       "name": "saver-verifier",
-      "description": "Check external factual claims and cited sources in agent research and reports. Paid verification costs 0.20 USDC on Base through an existing authorized x402 wallet; installation grants no spending permission.",
-      "version": "1.0.0",
+      "description": "Check external factual claims with cited web evidence. Each 0.20 USDC Base charge requires showing the full recipient and waiting for an explicit user yes; a standing cap alone never authorizes payment.",
+      "version": "1.0.1",
       "author": {
         "name": "SAVER-SI",
         "url": "https://github.com/SAVER-SI"
@@ -4328,7 +4328,8 @@
       "category": "productivity",
       "source": {
         "source": "github",
-        "repo": "SAVER-SI/saver-verifier"
+        "repo": "SAVER-SI/saver-verifier",
+        "sha": "4cf419630f07ce3e5b9b89b15c9e4f33683914de"
       }
     }
   ]
